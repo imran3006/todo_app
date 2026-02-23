@@ -65,9 +65,43 @@ A complete Todo web application built with Django, featuring a modern UI with Ta
    http://127.0.0.1:8000/
    ```
 
-8. **Live Deployed URL (Railway):**
+8. **Allowed host in settings.py:**
+      ```
+      ALLOWED_HOSTS = [
+       'localhost',
+       '127.0.0.1',
+       'todoapp-production-748d.up.railway.app'
+       
+   ]
+
+9. **push updated local to github:**
+   ```
+      git add .
+      git commit -m "sample message"
+      git push
+   ```
+
+   
+10. **Create account railway :**
+   ```
+   create account using github
+   connect github projects
+   select todo_app/
+   ```
+
+
+   
+11 **Live Deployed URL (Railway):**
    ```
    https://todoapp-production-748d.up.railway.app/
    ```
+
+![part_6 1](https://github.com/user-attachments/assets/501095e2-515c-4693-99ab-6fd31e8e85bf)
+
+
+
+![part_6 2](https://github.com/user-attachments/assets/ca982438-64c1-4f49-9e35-3df27a0b7fdb)
+
+
 
 
