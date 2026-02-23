@@ -31,7 +31,8 @@ ALLOWED_HOSTS = [
     'subclimatic-sherri-nonprovocatively.ngrok-free.dev',
     '.ngrok-free.dev',  # Allow all ngrok-free.dev subdomains
     '.ngrok.io',  # Allow all ngrok.io subdomains (for paid ngrok)
-    'testtttttt-kf9v.onrender.com'
+    'testtttttt-kf9v.onrender.com',
+    'todoapp-production-748d.up.railway.app'
 ]
 
 # CSRF trusted origins for ngrok
@@ -115,7 +116,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
- ALLOWED_HOSTS = ['todoapp-production-748d.up.railway.app']
+
 
 
 # Internationalization
