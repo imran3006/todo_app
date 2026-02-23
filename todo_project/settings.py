@@ -33,6 +33,7 @@ ALLOWED_HOSTS = [
     '.ngrok.io',  # Allow all ngrok.io subdomains (for paid ngrok)
     'testtttttt-kf9v.onrender.com',
     'todoapp-production-748d.up.railway.app'
+    
 ]
 
 # CSRF trusted origins for ngrok

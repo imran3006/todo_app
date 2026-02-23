@@ -65,77 +65,9 @@ A complete Todo web application built with Django, featuring a modern UI with Ta
    http://127.0.0.1:8000/
    ```
 
-## Project Structure
-
-```
-todo_project/
-├── manage.py
-├── requirements.txt
-├── README.md
-├── db.sqlite3          # SQLite database (created after migrate)
-├── todo_project/       # Project settings
-│   ├── __init__.py
-│   ├── settings.py
-│   ├── urls.py
-│   ├── wsgi.py
-│   └── asgi.py
-├── tasks/              # Tasks app
-│   ├── __init__.py
-│   ├── models.py       # Task model
-│   ├── views.py        # CRUD views
-│   ├── forms.py        # Task form
-│   ├── urls.py         # App URLs
-│   ├── admin.py
-│   ├── tests.py        # Unit tests
-│   └── migrations/     # Database migrations
-└── templates/          # HTML templates
-    ├── base.html
-    └── tasks/
-        ├── task_list.html
-        ├── task_form.html
-        └── task_confirm_delete.html
-```
-
-## Usage
-
-### Creating a Task
-
-1. Click the "+ New Task" button on the task list page
-2. Fill in the task title (required)
-3. Optionally add a description and due date
-4. Click "Create Task"
-
-### Managing Tasks
-
-- **View Tasks**: All tasks are displayed on the home page
-- **Filter Tasks**: Use the tabs (All/Active/Completed) to filter tasks
-- **Toggle Completion**: Click "Mark Complete" or "Mark Active" to toggle task status
-- **Edit Task**: Click the "Edit" button to modify a task
-- **Delete Task**: Click the "Delete" button and confirm deletion
-
-### Admin Interface
-
-Access the Django admin panel at `http://127.0.0.1:8000/admin/` (requires superuser account).
-
-## Running Tests
-
-```bash
-python manage.py test
-```
-
-## Development
-
-### Making Changes
-
-1. **Model Changes**: After modifying `models.py`, run:
-   ```bash
-   python manage.py makemigrations
-   python manage.py migrate
+8. **Live Deployed URL (Railway):**
+   ```
+   https://todoapp-production-748d.up.railway.app/
    ```
 
-2. **Static Files**: This project uses Tailwind CSS via CDN, so no static file collection is needed for development.
-
-## License
-
-This project is open source and available for educational purposes.
 
