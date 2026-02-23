@@ -115,6 +115,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+ ALLOWED_HOSTS = ['todoapp-production-748d.up.railway.app']
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
